@@ -13,7 +13,7 @@ public class SparkConfig {
 
     }
 
-    private static JavaSparkContext getSparkContext() {
+    public static JavaSparkContext getSparkContext() {
         if (SPARK_CONTEXT == null) {
             init();
         }
